@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon">
+  <span class="fas fa-bars"></span></div>
+  <div class="logo">Psycho Shop</div>
+  <div class="nav-items">
+<li><a href="http://shopps.glitch.me/">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="https://discord.gg/XgbKgpnGXm">Discord</a></li>
+  </div>
+  <div class="search-icon">
+  <span class="fas fa-search"></span></div>
+  <div class="cancel-icon">
+  <span class="fas fa-times"></span></div>
+  <h1>👑</h1>
+  </nav>
+  <script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = ()=>{
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = ()=>{
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#ff3d00";
+    }
+    searchBtn.onclick = ()=>{
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+  </script>
+    <div class="container">
+        <div class="card">
+            <div class="shoeBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                    <div class="gradient" color="red"></div>
+                    <div class="gradient" color="green"></div>
+                    <div class="gradient" color="orange"></div>
+                    <div class="gradient" color="black"></div>
+                </div>
+
+                <img src="https://image.paladium-pvp.fr/wiki/grinder/image13.png" alt="" class="shoe show" color="blue">
+
+
+            </div>
+            <div class="info">
+                <div class="shoeName">
+                    <div>
+                        <h1 class="big">Grinder</h1>
+                        <span class="new">new</span>
+                    </div>
+                    <h3 class="small">Il va vous être utile !</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Infos Produit : </h3>
+                    <p class="text">Nous vendons Grinder Complet. Nous fournissons la lave. </p>
+                </div>
+                <div class="buy-price">
+                    <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Acheter</a>
+                    <div class="price">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>25.000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="shoeBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                </div>
+
+                <img src="https://vignette.wikia.nocookie.net/paladiumminecraftserver/images/c/c6/Paladiummineral.png/revision/latest?cb=20180706222230&path-prefix=fr" alt="" class="shoe show" color="blue" style="width: 400px">
+
+            </div>
+            <div class="info">
+                <div class="shoeName">
+                    <div>
+                        <h1 class="big">Paladium Ore</h1>
+                        <span class="new">new</span>
+                    </div>
+                    <h3 class="small">Sert à faire du stuff en Paladium</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Infos Produit : </h3>
+                    <p class="text">1 Stack : $64</p>
+                </div>
+                
+                <div class="buy-price">
+                    <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Acheter</a>
+                    <div class="price">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>64</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="shoeBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                </div>
+
+                <img src="https://lh3.googleusercontent.com/CfH_S9hc_jD5fqr1pozLW9xWdqPLNsbCtgJ8MPmj5xNbmDLwJ_dofAtXFB14zsiMgyOKFnsLyhQ9KmuASqDzVw" alt="" class="shoe show" color="blue" style="width: 400px">
+
+            </div>
+            <div class="info">
+                <div class="shoeName">
+                    <div>
+                        <h1 class="big">Titane Ore</h1>
+                        <span class="new">new</span>
+                    </div>
+                    <h3 class="small">Sert à faire du stuff en Titane</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Infos Produit : </h3>
+                    <p class="text">1 Stack : $50</p>
+                </div>
+                
+                <div class="buy-price">
+                    <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Acheter</a>
+                    <div class="price">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>50</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="shoeBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                </div>
+
+                <img src="https://lh3.googleusercontent.com/UiF9-FcSByeUnRLVpX7pic1jg0x00dURLbjJT55mDFmQoEaLu_VLPWWZjn9fX5QIOh7z-UIQ5XlwQvngzmIRbjA=s400" alt="" class="shoe show" color="blue" style="width: 400px">
+
+            </div>
+            <div class="info">
+                <div class="shoeName">
+                    <div>
+                        <h1 class="big">PVP Stuff</h1>
+                        <span class="new" style="background-color: red;">1 moi après le début de la saison</span>
+                    </div>
+                    <h3 class="small">Va vous servir à PVP</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Infos Produit : </h3>
+                    <p class="text">Potions de Heal<br>16 Gapples en Paladium<br>Full Paladium P4 U3<br>Epée Parfaite<br>Potion Launcher<br>Sticks (à voir avec le vendeur, rajoute $60.000 si c'est un Stick Of God)<br>1 Hang Glider
+                    </p>
+                </div>
+                
+                <div class="buy-price">
+                    <a href="#" class="buy" style="background-color: red;"><i class="fas fa-shopping-cart"></i>Acheter</a>
+                    <div class="price">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>40.000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
